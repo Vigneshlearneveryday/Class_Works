@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Position Properties</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>CSS Position Properties</h1>
+
+  <!-- Static -->
+  <div class="box static-box">This is a static box (default positioning).</div>
+
+  <!-- Relative -->
+  <div class="box relative-box">This is a relative box (offset by top: 20px, left: 30px).</div>
+
+  <!-- Absolute -->
+  <div class="absolute-container">
+    <div class="box absolute-box">
+      This is an absolute box (positioned inside the dashed container).
+    </div>
+    This is the relative container.
+  </div>
+
+  <!-- Fixed -->
+  <div class="box fixed-box">This is a fixed box (always stays in the top-right corner).</div>
+
+  <!-- Sticky -->
+  <div class="box sticky-box">
+    This is a sticky box (sticks to the top when you scroll).
+  </div>
+
+  <!-- Extra Content to Scroll -->
+  <div style="height: 1000px;">
+    <p>Scroll down to see how `sticky` and `fixed` boxes behave.</p>
+  </div>
+</body>
+</html>

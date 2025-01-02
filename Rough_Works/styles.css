@@ -1,0 +1,46 @@
+body {
+      font-family: Arial, sans-serif;
+    }
+    .box {
+      border: 2px solid;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    /* Static */
+    .static-box {
+      border-color: blue;
+      position: static; /* Default */
+    }
+    /* Relative */
+    .relative-box {
+      border-color: green;
+      position: relative;
+      top: 20px;
+      left: 30px;
+    }
+    /* Absolute */
+    .absolute-container {
+      position: relative;
+      height: 200px;
+      border: 2px dashed gray;
+    }
+    .absolute-box {
+      border-color: red;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+    /* Fixed */
+    .fixed-box {
+      border-color: orange;
+      position: fixed;
+      top: 10px;
+      right: 10px;
+    }
+    /* Sticky */
+    .sticky-box {
+      border-color: purple;
+      position: sticky;
+      top: 0;
+      background-color: lightyellow;
+    }
